@@ -38,7 +38,21 @@ Carbonix Lab هو نظام SaaS يسمح للمستخدمين بـ:
 ✔ عارض 3D تفاعلي  
 ✔ لوحة تحكم إدارية  
 ✔ تصميم RTL عربي  
-
+package.json{
+  "name": "carbonix-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
 ---
 
 ## 🚀 تشغيل المشروع محلياً
